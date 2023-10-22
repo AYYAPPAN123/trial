@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#toolbox {
+    background: #081424;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+}
+#canvas {
+    margin-top: 6%;
+    margin-left: 200px;
+    padding: 20px;
+    min-height: 700px;
+}
+.toolbox-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    background:#081424;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button-container {
+    position:fixed;
+    top: 0;
+    padding: 10px;
+    height: 50px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.top_content{
+    display: flex;
+    flex-direction: row;   
+}
+.button_click{
+    position: fixed;
+    right: 0%;
+    margin-right: 50px;
+}
+.top_content_heading{
+    position:relative;
+    top: 0%;
+    left:30%;
+    margin-left: 150px;
+}
+.button_one{
+    width: 90px;
+    height: 25px;
+    color:white;
+    background-color: rgb(29, 175, 75);
+    border:0px;
+    font-size: small;
+    cursor: pointer;
+}
+.button_two{
+    width: 90px;
+    height: 25px;
+    color:black;
+    border:1px;
+    border-style: solid;
+    border-color:rgb(29, 175, 75);
+    font-size: small;
+    cursor: pointer;
+
+}
+.button_click_last{
+    position: fixed;
+    right: 0%;
+    bottom:10%;
+    margin-right: 50px;
+}
+
+td{
+    height: 50px;
+    width: 250px;
+    border: 1px black solid;
+}
+.table_menu{
+    height:50px;
+    width:250px;
+}
+.file{
+    padding-top:15px;
+
+}       
+.checkbox_button  {
+    display: flex;
+    align-items: center;
+    }
+
+.checkbox_button  label {
+    margin-right: 10px; 
+    }
+.choose{
+    margin:20PX;
+}
+.Table_button{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin-right: 75px;
+}
+.name{
+    height: 40px;
+    width: 500px;
+}
